@@ -1,0 +1,280 @@
+{"inputs": "這 把 短劍 呢", "example": "據說 是 一百年 前 的 連續 殺人 惡魔 ， 開膛手傑克 所 使用 過 的 凶器", "label": "1"}
+{"inputs": "你們 先 放鬆 休息 吧", "example": "謝謝 你", "label": "1"}
+{"inputs": "怎樣 ， 這樣 可以 吧", "example": "好 可怕", "label": "1"}
+{"inputs": "為什麼 這次 願意 見 我 ？", "example": "他們 說 你 要談 工作 的 事", "label": "1"}
+{"inputs": "有人 知道 嗎 ？ 我們 在 這裡 思考 的 所有人 ？", "example": "就 這麼 簡單 ， 都 是 他媽的 該死 的 數字", "label": "1"}
+{"inputs": "什麼 兵種", "example": "陸軍 特種兵", "label": "1"}
+{"inputs": "我 還有 一 件事 要 你 幫忙", "example": "什麼", "label": "1"}
+{"inputs": "請問 你 臺詞 記得 怎樣 了", "example": "抱歉 什么 叫 臺詞 記得 怎樣", "label": "1"}
+{"inputs": "那你 就 開槍 吧", "example": "即使 教授 的 紅酒 被 打破 也 沒關係 的 話", "label": "1"}
+{"inputs": "妳 何時 開始 打 這 主意 ？", "example": "那晚 的 晚餐", "label": "1"}
+{"inputs": "天 啊 ， 妳 訂婚 了 ！", "example": "對 呀", "label": "1"}
+{"inputs": "你 是 克勞福 的 人 ， 是 嗎 ？", "example": "是的", "label": "1"}
+{"inputs": "可 你 怎麼 擺脫 你 目前 的 困境 ？", "example": "我 有 個 絕妙 的 辦法 而且 十拿九穩", "label": "1"}
+{"inputs": "怎麼 了 ， 博士", "example": "聽 不見 啊", "label": "1"}
+{"inputs": "要進 這裡 面去 嗎", "example": "走 吧", "label": "1"}
+{"inputs": "誰 會把 它 拿走 ？", "example": "誰 知道 啊 ？", "label": "1"}
+{"inputs": "那麼 我 是不是 可以 問些 別的 問題 ？", "example": "無論 什麼 都 可以", "label": "1"}
+{"inputs": "他 會 原諒 我 嗎 ？", "example": "會 原諒 你的", "label": "1"}
+{"inputs": "你 真的 無所謂 嗎 ？ 成為 開膛手傑克 的 第五 個 犧牲 者", "example": "大家 會 保護 我的 ， 不是嗎", "label": "1"}
+{"inputs": "到底 是 怎麼 回事", "example": "先 別問 ， 快 過來", "label": "1"}
+{"inputs": "多 里亞 先生 ， 你 感覺 怎麼樣", "example": "非常 高興", "label": "1"}
+{"inputs": "真 … 真正 的 德拉 古司 在 哪 ？", "example": "德拉 古司 從不 參加 彩排", "label": "1"}
+{"inputs": "去 火車站 ， 越 快 越好", "example": "謝謝", "label": "1"}
+{"inputs": "我 可 沒有 那麼 黑 喲", "example": "是 嗎", "label": "1"}
+{"inputs": "你 告訴 她 警方 要 你 指認 她 時 ， 她 什麼 反應", "example": "我 沒 跟 她 說 過 這個", "label": "1"}
+{"inputs": "怎麼 了", "example": "我 想起 了 以前 和 小蘭 約好 見面 的 事情 了", "label": "1"}
+{"inputs": "不好意思", "example": "沒事", "label": "1"}
+{"inputs": "你的 表演 真 精彩 喔", "example": "你們 也 是", "label": "1"}
+{"inputs": "安宅 是 什麼", "example": "是 能劇 的 一個 劇目", "label": "1"}
+{"inputs": "讓 流在 我 身體 裡 的 罪惡 之 血", "example": "乘著 諾亞方舟 流傳 到下 個 世紀", "label": "1"}
+{"inputs": "僅僅 談話 ， 也許 並 不足 以 解決問題", "example": "聽 著 ， 他們 採取 這種方式 一定 有 其 原因 ， 不是嗎 ？", "label": "1"}
+{"inputs": "我 妹妹 呢", "example": "我 還 以為 她 在 這 里", "label": "1"}
+{"inputs": "你 是 想 喝 甜酒 還是 白蘭地 ？", "example": "不 ， 謝謝", "label": "1"}
+{"inputs": "菲利克 斯 ?", "example": "怎麼 回事", "label": "1"}
+{"inputs": "我 手機 關機 了 有 什麼 事", "example": "我 找到 他 了 能 說 你 當時 不在 那", "label": "1"}
+{"inputs": "檢查 別人 的 東西 ， 這 也許 是 巴黎 的 習慣", "example": "可是 這兒 是 布魯塞爾 ， 先生 ！", "label": "1"}
+{"inputs": "我 看 你 夠 了 吧 ？", "example": "夠 什麼 ？", "label": "1"}
+{"inputs": "這下 可 好了 ， 到底 把 她 給 甩掉 了", "example": "那 還 用 說 嘛 ， 你 是 天才", "label": "1"}
+{"inputs": "新 的 餐廳 ？", "example": "當然", "label": "1"}
+{"inputs": "你 找 了 個人 教 我 在 受審 時 怎麼說 ?", "example": "她 是 打官司 的 最佳 律師", "label": "1"}
+{"inputs": "你 真是 個 偽善者", "example": "你 說 什麼 ？", "label": "1"}
+{"inputs": "布萊梅 號 今晚 上 啟航 我 還 能 趕得上", "example": "你 想 去 買通 那些 英國 律師 ？ 不 ， 傻瓜", "label": "1"}
+{"inputs": "你 怎麼 處理 那 輛車 的", "example": "我 把 它 沉 了", "label": "1"}
+{"inputs": "你 喜歡 凱特 · 摩斯 嗎", "example": "我 愛死 她 了", "label": "1"}
+{"inputs": "晚安", "example": "晚安", "label": "1"}
+{"inputs": "我 告訴 你 這是 場 陰謀 你 會 怎麼 想", "example": "我 跟 你 說 了 怎麼 回事 你 還要 我 說 什麼", "label": "1"}
+{"inputs": "把 那 瓶 紅酒 交給 我 吧", "example": "好 的", "label": "1"}
+{"inputs": "她 知道 這 件事 是 因為", "example": "雜誌 的 採訪 報道", "label": "1"}
+{"inputs": "她 為什麼 對 我們 說 著這 話 ？", "example": "是 暗示", "label": "1"}
+{"inputs": "可是 元 太 他迷 了路", "example": "那就 用 偵探 徽章 啊", "label": "1"}
+{"inputs": "對不起 ， 我 看到 了", "example": "別太 擔心 ， 沒有什麼 大不了 的", "label": "1"}
+{"inputs": "我 想 睡覺 了", "example": "我 看 是 該 睡 了 是 該 睡 了", "label": "1"}
+{"inputs": "我 是 餵 鴨子 來 的", "example": "我 見到 你 也 在 餵 鴨子 ， 也許 我們 可以 一塊 餵", "label": "1"}
+{"inputs": "對 這位 老太太 非得 這麼 粗暴 嗎 ？ 你 好像 對 誰 都 懷疑 一 番", "example": "都 有道理 的 ， 上校 ， 難道 老太太 就 不會 殺人 了 ？", "label": "1"}
+{"inputs": "你 有 充分 理由 殺 她 ， 根據 我 昨晚 的 發現", "example": "哦 ， 是 給 你 偷聽 了", "label": "1"}
+{"inputs": "我 說 ， 這樣 是不是 更 簡單 我們 告訴 你 姓名 ， 你 把 我們 訂 的 客艙 說 一下", "example": "簡單 ？ 啊 ， 那 好 啊 那 當然 簡單 啦 ， 當然 啦 ， 這樣一來 最 簡單 不過 啦", "label": "1"}
+{"inputs": "那麼 ， 在 這 之前 ， 讓 我 先 把 你們 從 這裡 趕出去 吧", "example": "走 吧", "label": "1"}
+{"inputs": "你 要 點歌 嗎 ？", "example": "你 … 你 知道 我的 最愛 ， 海特", "label": "1"}
+{"inputs": "來 吧 ， 抓 著 ， 上", "example": "好 的", "label": "1"}
+{"inputs": "接下來", "example": "請 欣賞 今天 的 特別 嘉賓", "label": "1"}
+{"inputs": "開始 吧", "example": "等等", "label": "1"}
+{"inputs": "遵命 ， 太太 晚安", "example": "晚安", "label": "1"}
+{"inputs": "我 就 不能 有 社交 生活 嗎 ？", "example": "我 不知道 妳 有 社交 生活", "label": "1"}
+{"inputs": "準備好 出海 遊玩 了 嗎", "example": "我 剛 接到 個 重要 電話 ， 我 要 去 跟 李 先生 會面", "label": "1"}
+{"inputs": "我 很 怕熱 ， 沒關係 的", "example": "謝謝", "label": "1"}
+{"inputs": "什么 時候", "example": "現在", "label": "1"}
+{"inputs": "謝謝 妳 今晚 跟 我 去 約會", "example": "我 玩 得很 開心", "label": "1"}
+{"inputs": "那是 在 哪兒 呢 重點 就 在 這不 是 嗎", "example": "西南 五 區科 菲爾德 花園 26 號", "label": "1"}
+{"inputs": "好像 來 了 很多 大人物", "example": "是的", "label": "1"}
+{"inputs": "一切 都 好 嗎", "example": "撞到 一頭 鹿 不過 我 沒事 謝謝", "label": "1"}
+{"inputs": "你 要 跟 誰 結婚", "example": "跟 瑪麗 那個", "label": "1"}
+{"inputs": "妳 的 車 在 哪兒", "example": "現在 應該 到 門口 我 不 開車 的", "label": "1"}
+{"inputs": "什麼 意思 ？", "example": "找 個 漂亮 的 女人 來 引誘 他 ， 我 相信 這 8 年來 萊克 特 都 沒 見過 女人 ， 而 你 正合 他 的 胃口", "label": "1"}
+{"inputs": "可以 看見 河 呢", "example": "是 鴨川", "label": "1"}
+{"inputs": "這裡 似乎 有 什麼 線索", "example": "殺死 堅村 的 兇手 的 線索", "label": "1"}
+{"inputs": "你 要 喝 咖啡 嗎", "example": "好 的", "label": "1"}
+{"inputs": "我愛你", "example": "我 也 愛你", "label": "1"}
+{"inputs": "談談 西 維州 小姐 吧 ， 她 是否 身材 肥大 ？", "example": "是的", "label": "1"}
+{"inputs": "你們 可以 用 測謊 儀來 測試 我 ， 快測 啊", "example": "他 在 說謊 ， 看 他 的 眼睛", "label": "1"}
+{"inputs": "為何 你 不問 我 ， 關於 野牛 比爾 的 事 ？", "example": "你 知道 他 的 事 ？", "label": "1"}
+{"inputs": "你 尋找 的 這個 人 ， 他 做 什麼 ？", "example": "殺害 女人", "label": "1"}
+{"inputs": "你 在 這裡 有 聽到 電話鈴聲 嗎", "example": "沒", "label": "1"}
+{"inputs": "該 怎麼 答謝 你 呢", "example": "不用 了 ， 又 不是 什麼 了不起 的 事", "label": "1"}
+{"inputs": "媽媽 呢", "example": "她 說 好久 沒 回 日本 了 ， 所以 去 參加 同窗 聚會 了", "label": "1"}
+{"inputs": "好 吧 那 這 件 呢", "example": "美 極了 就是 它 了", "label": "1"}
+{"inputs": "李 歐 ， 你 在 哪裡 上班 ？", "example": "我 剛 在 市中心 開了 一間 錄音室", "label": "1"}
+{"inputs": "這是 什麼", "example": "那個 男孩 的 錢包", "label": "1"}
+{"inputs": "史達琳 ， 克勞福 要見 你", "example": "謝謝", "label": "1"}
+{"inputs": "為什麼 要 殺害 無辜 的 女性 呢", "example": "開膛手 變成 了 超乎 我 想像 的 殺人 惡魔", "label": "1"}
+{"inputs": "你們 一共 多少 人 ？", "example": "6 個 ， 4 個 出 外務 了", "label": "1"}
+{"inputs": "我 沒有 殺 她 ， 我 發誓", "example": "你 不必 說 了 ， 我 知道", "label": "1"}
+{"inputs": "那個 老 女人 嗎", "example": "不 不是 那個 老 女人 那個 金發 美女", "label": "1"}
+{"inputs": "你 有 什么 缺點 就是 小 弱點", "example": "我 非常 沒 安全感", "label": "1"}
+{"inputs": "這是 衣櫥 裡 我 唯一 穿起來 舒服 的", "example": "那 其實 是 我的", "label": "1"}
+{"inputs": "那麼 平次 的 狀況 呢", "example": "明天 做 全面 檢查 前 必須 靜養 ， 所以 工籐 拜託 我 好好 看 著 他", "label": "1"}
+{"inputs": "幫幫 我", "example": "好 的", "label": "1"}
+{"inputs": "給 我 兩 分鐘 時間 穿 衣服", "example": "好 的", "label": "1"}
+{"inputs": "你 曾 服務 絲隆 小姐 嗎 ？", "example": "沒有 ， 先生", "label": "1"}
+{"inputs": "我 要 怎麼 做", "example": "不知道", "label": "1"}
+{"inputs": "那 幫助 我們 的 人 是 那 位 夏洛克 福爾摩斯 嗎", "example": "是 ， 他 應該 是 存在 於 這個 世界 的", "label": "1"}
+{"inputs": "至於 你 這 份 拙劣 的 問卷 ， 就 不行了", "example": "我 只是 要求 你 看看 它 ， 做 不 做 隨便 你", "label": "1"}
+{"inputs": "你 會 在 巴爾的摩 過夜 嗎 ？ 如果 你 有 適當 的 嚮導 ， 這 可是 個 很 好玩 的 城市", "example": "我 肯定 ， 這是 個 了不起 的 城市", "label": "1"}
+{"inputs": "你 只是 在 利用 龍圓 先生 而已 吧", "example": "沒錯 ， 之前 聽 他 提到 過 佛像 的 事", "label": "1"}
+{"inputs": "你們 是 什麼 關係 ？", "example": "我 和 一個 客戶 參加 聚會 ， 我 試著 要 自我 介紹 ， 但 她 不理 我", "label": "1"}
+{"inputs": "醒醒 來 聊聊天", "example": "干什么", "label": "1"}
+{"inputs": "我們 是 不應該 帶 武器 的", "example": "我 從來 是 槍 不 離身 的", "label": "1"}
+{"inputs": "你好 我 叫 瑪麗", "example": "我 叫 蒂姆 其實 我 媽 也 叫 瑪麗", "label": "1"}
+{"inputs": "服部 ， 八年 前 你 偷偷 溜進 去 的 就是 山能 寺 吧", "example": "你 怎麼 知道", "label": "1"}
+{"inputs": "我 早就 盼 著 跟 你 私下 談一談 ， 可 一直 找不到 機會", "example": "我們 有 什麼 可 談 的 ？", "label": "1"}
+{"inputs": "暫且 說到 這兒 ， 如果 有 必要 ， 你 得 準備 回答 我 進一步 的 問題", "example": "我 絕不 回答 你", "label": "1"}
+{"inputs": "那 不是 黛安 錢尼 嗎 ？", "example": "對 ， 我們 已經 不 一起 玩 了", "label": "1"}
+{"inputs": "多爾 先生 ， 我 知道 誰 殺 了 露易 絲", "example": "什麼 ？ 你 說 你 知道 誰 殺 了 露易 絲 ？", "label": "1"}
+{"inputs": "但願 妳 不是 為了 喝 熱可可 才 進城 裡 來 的", "example": "其實 ， 我 六 個 月前 就 搬回來 了", "label": "1"}
+{"inputs": "那就 向 我 承認 你 殺 了 蘿拉", "example": "我 承認", "label": "1"}
+{"inputs": "好了 ， 你 給 他 頭上 捂 塊 濕 毛巾", "example": "是 ， 醫生", "label": "1"}
+{"inputs": "你 是 誰", "example": "工籐 新 一", "label": "1"}
+{"inputs": "你 在 哪 給 我 打電話", "example": "電話亭", "label": "1"}
+{"inputs": "你 不應該 帶 武器 的", "example": "我 很 高興 我 帶來 了", "label": "1"}
+{"inputs": "來 來 再說 說 你們 美妙 的 初次 見面", "example": "好 吧", "label": "1"}
+{"inputs": "堅村 先生 和 弘樹 是 什麼 關係", "example": "堅村 是 弘樹 的 父親", "label": "1"}
+{"inputs": "我們 最 想見 的 那個人 拒絕 合作 ， 我 想 你 去 精神 病院 找 他", "example": "那 人 是 誰 ？", "label": "1"}
+{"inputs": "我 會 給 你 一個 大好 機會", "example": "什麼 ？", "label": "1"}
+{"inputs": "等 我 一下 好 嗎", "example": "當然", "label": "1"}
+{"inputs": "你 在 一些 有 地位 有 名望 的 人 面前 說 了 我 不少 很不 入耳 的 話", "example": "我 說 你 是 個 庸醫", "label": "1"}
+{"inputs": "地址 ?", "example": "別爾赫聖 雷蒙 街 5 號", "label": "1"}
+{"inputs": "是 妳 的 嗎 ？", "example": "是的", "label": "1"}
+{"inputs": "你 沒有事 吧 ？", "example": "是的 ， 我 告訴 你 了 我 沒有事", "label": "1"}
+{"inputs": "這些 會 讓 你 想到 什麼", "example": "讓 我 想到 那 家 酒店 的 謎團", "label": "1"}
+{"inputs": "你 想 離開 索尼 婭 ?", "example": "不 想", "label": "1"}
+{"inputs": "我們 得 快點 想 辦法", "example": "我 想 我 完蛋 了", "label": "1"}
+{"inputs": "關於 兇手 的 線索 呢", "example": "可以 肯定 是 個 劍道 和 弓箭 的 高手", "label": "1"}
+{"inputs": "若 我 再 想起 什麼 ， 我 會 通知 你的", "example": "好 的 ， 謝謝 你", "label": "1"}
+{"inputs": "雖然 找不到 幫助 我們 的 角色", "example": "但 對 我們 而言 你 就是 福爾摩斯", "label": "1"}
+{"inputs": "我 應該 去 ， 你 把 答應 過 的 錢 給 我 吧 ， 我 已經 跟 了 你 五年 了", "example": "這是 完全 辦不到 的", "label": "1"}
+{"inputs": "沉睡 的 小 五郎 是 睡著 時 讓 老婆 逃掉 了 才 會 有 這個 綽號 的 吧", "example": "才 不是 在 睡覺 的時候 呢", "label": "1"}
+{"inputs": "我 想 我 準備好 去 看 工作室 了 你 能 帶 我 去 嗎 ？", "example": "當然", "label": "1"}
+{"inputs": "她 想要 我們 都 死於 水下", "example": "真 殘忍", "label": "1"}
+{"inputs": "在 蘇黎世 辦 學院 的 是 你 呀", "example": "不錯", "label": "1"}
+{"inputs": "我 不 習慣 面對 聚光燈 和 媒體", "example": "那就 趕快 習慣 ， 木已成舟 了", "label": "1"}
+{"inputs": "你 為什么 覺得 會 說到 這個", "example": "不知道 如果說 到了 就 一口 否認", "label": "1"}
+{"inputs": "桌上 的 鍵盤 會不會 是 死亡 訊息", "example": "什麼", "label": "1"}
+{"inputs": "麻煩 您 簽名", "example": "先生 ， 我 也 要", "label": "1"}
+{"inputs": "你 怎麼樣 啊 ， 我 親愛的 ？", "example": "不好 ， 波洛 先生 ， 我 心裡 很 難過", "label": "1"}
+{"inputs": "我 跟 蘿絲 分手 了 我 提 的 分手 ， 佩吉", "example": "不 ， 你 為什麼 要 這樣 做 ？", "label": "1"}
+{"inputs": "什麼 證據", "example": "證明 那 把 短刀 是 殺害 櫻 先生 的 兇器 的 證據", "label": "1"}
+{"inputs": "找到 了 嗎", "example": "還 沒有", "label": "1"}
+{"inputs": "她 是 社會 上 的 寄生蟲 像 她 這樣 的 人 應該 把 她 幹掉", "example": "噢 ， 是 啊 ， 幹掉 她 來 警告 別人", "label": "1"}
+{"inputs": "怎麼 哪兒 也 沒有 啊", "example": "拿 眼看 嘛", "label": "1"}
+{"inputs": "可 幹嘛 要 暗示 我們 ？", "example": "她 知道 兇手 是 誰", "label": "1"}
+{"inputs": "在 誣陷 別人 的 案子 裡 也 這樣 嗎 ？", "example": "不 ， 為什麼 兇手 在 那 牆上 用血 寫下 了 一個 J ？ 又 拿走 傑基 的 槍 ？", "label": "1"}
+{"inputs": "寫 文章 還要 誹謗 人 ， 是 吧 ？", "example": "真 遺憾 你 居然 如此 看待 《 柿子樹 下 的 熱戀 》 這 本書", "label": "1"}
+{"inputs": "叫 他們 撤掉", "example": "可能 會 更糟 的", "label": "1"}
+{"inputs": "再說 ， 你們 真的 有 被 邀請 嗎", "example": "太 失禮 了 吧", "label": "1"}
+{"inputs": "那 ... 那是 什麼", "example": "是 他 的 寵物 斑紋 松鼠", "label": "1"}
+{"inputs": "這是 你的 嗎 ， 太太 ？", "example": "當然", "label": "1"}
+{"inputs": "是 誰", "example": "索尼 婭", "label": "1"}
+{"inputs": "聽說 你 跟 堅村 是 長久以來 的 老朋友", "example": "知不知道 他 跟 什麼 人 有仇", "label": "1"}
+{"inputs": "出於 什麼 目的 呢", "example": "為了 勒索 我們", "label": "1"}
+{"inputs": "傑基 … 你 在 這兒 幹什麼 ？", "example": "看看 風景 ， 跟 你們 一樣", "label": "1"}
+{"inputs": "爸爸 ， 你 有 沒 抓到 壞人 ？", "example": "沒有 ， 他們 跑掉 了", "label": "1"}
+{"inputs": "你好 我們 認識 嗎", "example": "不 不 我 是 瑪麗 的 朋友", "label": "1"}
+{"inputs": "妳 還 會 這麼 做 嗎 ？", "example": "會 吧", "label": "1"}
+{"inputs": "你好", "example": "你好", "label": "1"}
+{"inputs": "給 我 兩 分鐘 時間 穿 衣服", "example": "好 的", "label": "1"}
+{"inputs": "你 有沒有 給 她 餵奶 ？", "example": "我 有的", "label": "1"}
+{"inputs": "你的 套裝 很 漂亮", "example": "謝謝", "label": "1"}
+{"inputs": "不可 接受 他 給 你的 東西 ， 明白 嗎 ？", "example": "明白", "label": "1"}
+{"inputs": "這 應該 意味著 什麼 ？", "example": "那麼 ， 這是 不是 意味著 某種 警告 ？", "label": "1"}
+{"inputs": "當然 可以", "example": "謝謝 你", "label": "1"}
+{"inputs": "我們 快 走 吧 ， 去 貝克 街", "example": "好 啊 ， 只要 能 見到 福爾摩斯", "label": "1"}
+{"inputs": "你 知道 我 是 誰 嗎", "example": "我 只 知道 你 不是 伊凡 · 索托", "label": "1"}
+{"inputs": "你 瘋 了 嗎", "example": "沒有", "label": "1"}
+{"inputs": "布雷迪 在 選戰 上 每 花 一塊 錢 ， 而 槍枝 支持 方花 多少 嗎 ？", "example": "38 塊 錢", "label": "1"}
+{"inputs": "我 不知道 對 這 件事 該 有何 感想", "example": "你 不用 感想 什麼 ， 萊克 特 這樣 做 只是 為了 自娛", "label": "1"}
+{"inputs": "你 為什麼 那麼 緊張", "example": "你 不 告訴 我 ， 我 沒法 幫 你", "label": "1"}
+{"inputs": "你 等 我 一下 好 嗎", "example": "好 的", "label": "1"}
+{"inputs": "她 根本 不瞭解 那個人 我 派人 去 調查 了 一下", "example": "結果 呢 ？ 那個人 是結 過婚 的", "label": "1"}
+{"inputs": "你 在 何時 出發 ？", "example": "很 早 ， 天 還 沒 亮", "label": "1"}
+{"inputs": "可 她 脾氣 可懷 呢 ， 主意 又 大都 得由 她 做主 ？", "example": "對", "label": "1"}
+{"inputs": "昨天 夜裡 砰 的 一聲 把 我 驚醒 了", "example": "砰 的 一聲 ？", "label": "1"}
+{"inputs": "你 ， 你 擁有 這種 能力", "example": "沒有什麼 案子 是 福爾摩斯 解決不了 的 對 吧", "label": "1"}
+{"inputs": "我的 腿", "example": "不 ， 別動 它", "label": "1"}
+{"inputs": "我 就 知道 你 來 不是 什麼 … 怎麼說 的 ？ 僅僅 是 度假 來著", "example": "我 可以 告訴 你 ， 我 秘密 地為 多爾 太太 的 英國 律師事務所 工作", "label": "1"}
+{"inputs": "知道 被 抓到 會 變多 慘 嗎 ？", "example": "不會 比 失去 班利 來得 慘", "label": "1"}
+{"inputs": "你 還好 吧 ？", "example": "好 ， 謝謝", "label": "1"}
+{"inputs": "他 主要 是 做 什麼 ？ 他殺人 是 為了 滿足 什麼 ？", "example": "憤怒 ， 社會 認同 和性 困惑", "label": "1"}
+{"inputs": "你 在 幹嘛", "example": "我 在 報警", "label": "1"}
+{"inputs": "就是 他 ， 我的 賽蒙", "example": "你好 ， 傑基 說 了 你 很多 好話", "label": "1"}
+{"inputs": "酒店 職工 說 只有 你 有 鑰匙", "example": "那個 作案 現場 是 用來 陷害 我的", "label": "1"}
+{"inputs": "我 訂婚 了", "example": "傑基 ， 這 太好了", "label": "1"}
+{"inputs": "妳 看過 那 份 表格 嗎 ？", "example": "看過 ， 是 私人 贊助 證明 表", "label": "1"}
+{"inputs": "喝茶 嗎", "example": "非常 愿意", "label": "1"}
+{"inputs": "你 目前 的 主要 收入 來源 是 什麼 ？", "example": "我 在 華盛頓 做 伴遊", "label": "1"}
+{"inputs": "在 外面 的 共犯 把 兇器 從 河裡 撿走 了", "example": "這是 不可能 的", "label": "1"}
+{"inputs": "那 令 你 很 氣惱 吧 ？", "example": "那 只是 個 煙幕 ， 我 要 打發 他 走", "label": "1"}
+{"inputs": "我 五分鐘 之內 就 可以 搞 到 她 的 電話號碼", "example": "我 只要 兩 分鐘 就 夠 了", "label": "1"}
+{"inputs": "太太 ， 你 答應 過 我", "example": "可 他們 還 沒 離婚 ， 露易 絲", "label": "1"}
+{"inputs": "你們 都 以為 是 我 ， 可 我 沒 殺", "example": "安靜 點 ， 安靜 點 ， 小姐 ， 我們 知道 你 沒 殺 多爾 太太", "label": "1"}
+{"inputs": "謝謝 ， 再見 了", "example": "再見 ， 祝 你 好運", "label": "1"}
+{"inputs": "你們 沒有 權力 到 我的 艙裡 來 ， 沒有 權力 ！", "example": "我們 有 權力", "label": "1"}
+{"inputs": "說 實話 你們倆 誰 更 漂亮", "example": "當然 是 我", "label": "1"}
+{"inputs": "為什麼 沒 人查 她 的 檔案 ？", "example": "原本 人 很多 ， 但 大家 都 落跑 了", "label": "1"}
+{"inputs": "你 怎麼 看 ， 拉 奎爾", "example": "很遺憾 ， 太晚 了 ， 我 真的 得走 了", "label": "1"}
+{"inputs": "可是 我們 不是 要 去見 危險 的 傢伙 嗎", "example": "還 沒 用慣 的 武器 是 派不上 用場 的 ， 只 會 惹出 麻煩", "label": "1"}
+{"inputs": "那你 認識 那個 女孩子 嘍", "example": "我 怎麼 可能 認識 呢", "label": "1"}
+{"inputs": "宋 妮亞 跟 我 變成 了 朋友 我 問 了 她 關於 我們 的 事", "example": "真的 ？ 她 都 說 了 什麼 ？", "label": "1"}
+{"inputs": "這 就 太 奇怪 了", "example": "怎麼 了 呢 ？", "label": "1"}
+{"inputs": "蜜月 呢", "example": "去 蘇格蘭 住小 旅館", "label": "1"}
+{"inputs": "週三 早上 8 點 把 你的 報告 交給 我", "example": "好 的", "label": "1"}
+{"inputs": "我 想 知道 它 是 怎麼 他媽的 到 這裡 的", "example": "我 說 問題 的 關鍵 是 它 為什麼 在 這裡", "label": "1"}
+{"inputs": "不公平 ， 你 用 食物 引誘 它", "example": "真 無賴 ， 仍然 是 輪到 我", "label": "1"}
+{"inputs": "妳 只 用 了 三 個 月 時間 ？", "example": "實際 花 的 時間 更少", "label": "1"}
+{"inputs": "大夫 ， 談談 情況 吧", "example": "是 被 很 小 的 子彈 打中 的 口徑 大概 是 . 22 ， 而且 槍口 離 腦袋 很 近", "label": "1"}
+{"inputs": "知道 怎麼 變 的 嗎 ？ 一粒 小小 的 沙子 鉆 進 了 一個 蚌殼 裡 ， 到 後來 就 變成 了 一 顆 寶貴 的 珍珠 ， 戴 在 你 這樣 一 位 美人 的 脖子 上", "example": "我 可 沒 這麼 想 你 應該 想 那 蚌 為此 送命 了", "label": "1"}
+{"inputs": "你 是 在 開玩笑 ？", "example": "小小 的 玩笑 ， 不過 有點 不合時宜", "label": "1"}
+{"inputs": "男人 可 受不了 這個 ， 是不是 ？", "example": "對 對 ， 是 受不了", "label": "1"}
+{"inputs": "我 有 個 壞 消息", "example": "你 要死 了 嗎", "label": "1"}
+{"inputs": "我 不是 個 有 暴力 傾向 的 人", "example": "那你 就 快要 真正 的 認識 你自己 ， 知道 自己 是 怎麼 回事 了", "label": "1"}
+{"inputs": "你 肯定 帶來 了 ？", "example": "當然 帶來 了", "label": "1"}
+{"inputs": "什麼 意思 ？", "example": "意思 就是 該 改用 B 計畫", "label": "1"}
+{"inputs": "警部 先生 ， 那 把 短刀 呢", "example": "現在 正在 化驗", "label": "1"}
+{"inputs": "你 是 霍克 爾波 瑞奇 著名 的 法國 偵探", "example": "不全 對 ， 霍克 爾波洛 著名 的 比利時 偵探", "label": "1"}
+{"inputs": "邁克 斯死 了", "example": "怎麼 會 ？", "label": "1"}
+{"inputs": "難道 說 這 隻 小 戒指 是 開膛手傑克 的 嗎", "example": "是的", "label": "1"}
+{"inputs": "是 我 約 他 來 的 嘛", "example": "是 啊", "label": "1"}
+{"inputs": "他們 在 度 蜜月 ， 她 不會 那麼 清醒 你懂 了 嗎 ？", "example": "可是 林內 特 並不 傻 ， 潘寧 頓", "label": "1"}
+{"inputs": "真的 ？", "example": "是 啊", "label": "1"}
+{"inputs": "可以 跟 我 說 溫蒂 的 來頭 嗎 ？", "example": "當然 可以", "label": "1"}
+{"inputs": "他 的 容貌 和 監獄 裡 的 狀況 如何 ？", "example": "這是 萊克 特 的 檔案", "label": "1"}
+{"inputs": "先生 請 跟 我們 走", "example": "別碰 我", "label": "1"}
+{"inputs": "你 在 哪 給 我 打電話", "example": "電話亭", "label": "1"}
+{"inputs": "為什麼 ？ 我 做錯 什麼 ？", "example": "沒有 ， 只是 我的 狀態 不太好", "label": "1"}
+{"inputs": "你 在 哪 給 我 打電話", "example": "電話亭", "label": "1"}
+{"inputs": "我 喜歡 我們 在一起 的 感覺", "example": "還 記得 我們 起初 說 過 的 話 嗎", "label": "1"}
+{"inputs": "侵吞 她 的 財產 ？", "example": "就是 這麼 回事", "label": "1"}
+{"inputs": "那 現在 銅像 手上 拿 的 就是 作案 時 使用 的 短劍 咯", "example": "是的", "label": "1"}
+{"inputs": "那 東西 留在 那兒 不太好 ， 是 吧 ？", "example": "是 啊", "label": "1"}
+{"inputs": "佩吉 ？", "example": "什麼 事 ？", "label": "1"}
+{"inputs": "我 做 吧", "example": "好 的", "label": "1"}
+{"inputs": "我們 要不要 試試看 以前 沒 去過 的 地方 ？", "example": "新 的 餐廳 ？", "label": "1"}
+{"inputs": "找到 了 ， 找到 了", "example": "太妙 了 ， 太妙 了", "label": "1"}
+{"inputs": "所以 你 就 制止 了 ？", "example": "你 說 對了 我 還 叫 她 別 指望 我 會 給 她 嫁妝", "label": "1"}
+{"inputs": "為什麼 你 是 我 先生 卻 沒 見過 我 家人 ？", "example": "妳 跟 他們 好幾年 沒 說話 了", "label": "1"}
+{"inputs": "可是 ， 那個 東西 在 哪裡", "example": "晚會 會場 裡 的 銅像 其中 有 一 尊握 著 短劍", "label": "1"}
+{"inputs": "我 還有 一 件事 要 你 幫忙", "example": "什麼", "label": "1"}
+{"inputs": "大叔 ， 你 是不是 不 認識 我們 ？ 如果 和 我們 作對", "example": "明天 就 要 被 炒魷魚 了 哦", "label": "1"}
+{"inputs": "現在 是 怎麼 回事", "example": "妳 支持 希頓 哈里斯 要 嚴控 槍枝", "label": "1"}
+{"inputs": "會 讓 你 想到 什麼 呢", "example": "讓 我 想到 那 家 酒店 的 謎團", "label": "1"}
+{"inputs": "奇怪 他 出門 從 不會 不 帶 手機", "example": "他 大概 忘記 帶 了", "label": "1"}
+{"inputs": "對 ， 可 你 還是 沒 懂 我的 意思", "example": "很 抱歉", "label": "1"}
+{"inputs": "有 什麼 事 嗎", "example": "本來 想 找 你 一同 去友 呂岐 綠地 看 櫻花 的", "label": "1"}
+{"inputs": "秀樹 ， 別在 這裡 踢球", "example": "是", "label": "1"}
+{"inputs": "哦 ， 毛利", "example": "你 也 來 啦", "label": "1"}
+{"inputs": "你們 怎麼 也 進來 了", "example": "想 一個人 獨佔 功勞 ， 門 都 沒有", "label": "1"}
+{"inputs": "你 … 你 在 做 什麼 ？", "example": "我 在學 骷髏 走路 ， 免得 穿幫", "label": "1"}
+{"inputs": "導航 上 不是 這個 方向", "example": "往 這 條 路開 更 快", "label": "1"}
+{"inputs": "想到 快到 快 到 比 真的 到了 還有 味兒", "example": "多美 呀 ！", "label": "1"}
+{"inputs": "我們 可以 去 京都 了", "example": "可是 答對 的 是 小哀 啊", "label": "1"}
+{"inputs": "這是 什麼", "example": "那 幅畫 的 複印 件", "label": "1"}
+{"inputs": "好像 每個人 都 有本 《 義經 記 》 呢", "example": "我 也 有 啊 ， 那 可是 本 好書", "label": "1"}
+{"inputs": "對不起 ， 為何 這樣 急 ？", "example": "萊克 特 已經 坐牢 很多 年 了", "label": "1"}
+{"inputs": "你 不會 對 我的 故事 感興趣 的", "example": "實際上 我 想 知道", "label": "1"}
+{"inputs": "他 要 加入 這個 團隊 嗎 ？", "example": "他 只是 來 觀察 的 ， 並不 參與 其中", "label": "1"}
+{"inputs": "我 打不通 菲利克 斯 的 電話", "example": "他 出城 了", "label": "1"}
+{"inputs": "聲音 全都 是 教授 用 腹語 講 的 ， 對 吧", "example": "沒想到 連 這 點 都 被 你 看穿", "label": "1"}
+{"inputs": "我 想要 個 有經驗 的 聽 我 說 …", "example": "賽蒙 … 他 在 劍橋 學 產業 經營 管理 的 他 很 適合", "label": "1"}
+{"inputs": "在 警察 來 之前 大家 都 到 剛才 的 房間 去 等 著 吧 ， 絕對 不可以 出去", "example": "知道 了", "label": "1"}
+{"inputs": "我 想 你 偏離 了 工作 方向", "example": "可能 吧", "label": "1"}
+{"inputs": "您 今天 是 在 這兒 吃 還是 帶走", "example": "帶走 吧 謝謝", "label": "1"}
+{"inputs": "你的 航班 是 幾點 的", "example": "我 正 想 打電話 跟 你 說 我 趕不上 了", "label": "1"}
+{"inputs": "你 去世 的 老 爸爸 他 真會 說 笑話", "example": "是 這樣", "label": "1"}
+{"inputs": "開 開門 ， 對", "example": "慢點 走 ， 慢點 走", "label": "1"}
+{"inputs": "噢 ， 還有 另外 一個人 很快 就 會 過來", "example": "會 是 誰 ？", "label": "1"}
+{"inputs": "因為 敵人 可能 就 在 身邊 ， 你 是不是 有 什麼 事瞞 著 我 ？", "example": "沒有", "label": "1"}
+{"inputs": "我 只有 算到 五 個", "example": "妳 的 數學 不行", "label": "1"}
+{"inputs": "這 椅子 有主 嗎 ？ 這 世界上 ， 同志 ， 都 是 有主 的", "example": "什麼 ？ 哦 ， 沒 關系 ， 坐 吧", "label": "1"}
+{"inputs": "好極了 ， 希望 排除 嫌疑 能夠 順利 地 進行", "example": "恐怕 不會 順利 ， 上校", "label": "1"}
+{"inputs": "你 沒有 看見 或是 聽見 什麼 可以 提供給 我們 ？", "example": "怎麼 可能 呢 ？ 我的 客艙 是 在 船 的 另 一邊", "label": "1"}
+{"inputs": "被 跟蹤 了 嗎 ？", "example": "很 明顯 是的", "label": "1"}
+{"inputs": "進來 吧", "example": "不了 ， 我 就 在 這 等", "label": "1"}

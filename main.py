@@ -31,7 +31,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '1' #使用 GPU 0
 
 # Where to find data 去哪裡找data
 tf.flags.DEFINE_string('data_path', 'review_generation_dataset/train/* ', 'Path expression to tf.Example datafiles. Can include wildcards to access multiple datafiles.')
-tf.flags.DEFINE_string('vocab_path', 'review_generation_dataset/train/new_vocab.txt', 'Path expression to text vocabulary file.')
+tf.flags.DEFINE_string('vocab_path', 'review_generation_dataset/new_dir.txt', 'Path expression to text vocabulary file.')
 
 # Important settings 匯入設定
 
@@ -61,7 +61,7 @@ tf.flags.DEFINE_integer('batch_size', 64, 'minibatch size') # for discriminator 
 tf.flags.DEFINE_integer('max_enc_steps', 50, 'max timesteps of encoder (max source text tokens)') # for generator
 tf.flags.DEFINE_integer('min_dec_steps', 35, 'Minimum sequence length of generated summary. Applies only for beam search decoding mode') # for generator
 # tf.flags.DEFINE_integer('vocab_size', 50000, 'Size of vocabulary. These will be read from the vocabulary file in order. If the vocabulary file contains fewer words than this number, or if this number is set to 0, will take all words in the vocabulary file.')
-tf.flags.DEFINE_integer('vocab_size', 3503, 'Size of vocabulary. These will be read from the vocabulary file in order. If the vocabulary file contains fewer words than this number, or if this number is set to 0, will take all words in the vocabulary file.')
+tf.flags.DEFINE_integer('vocab_size', 66100, 'Size of vocabulary. These will be read from the vocabulary file in order. If the vocabulary file contains fewer words than this number, or if this number is set to 0, will take all words in the vocabulary file.')
 tf.flags.DEFINE_float('lr', 0.1, 'learning rate') # for discriminator and generator
 tf.flags.DEFINE_float('adagrad_init_acc', 0.1, 'initial accumulator value for Adagrad') # for discriminator and generator
 tf.flags.DEFINE_float('rand_unif_init_mag', 0.02, 'magnitude for lstm cells random uniform inititalization') # for discriminator and generator

@@ -25,18 +25,24 @@ from model import Generator
 from generated_sample import Generated_sample
 from discriminator import Discriminator
 from batch_discriminator import DisBatcher
+from pyltp import Segmentor
+import opencc
 FLAGS = tf.flags.FLAGS
-os.environ['CUDA_VISIBLE_DEVICES'] = '1' #使用 GPU 0
-
+os.environ['CUDA_VISIBLE_DEVICES'] = '0' #使用 GPU 0
+segmentor = Segmentor()
+segmentor.load("./ltp_data_v3.4.0/cws.model")
+t2s = opencc.OpenCC('t2s')
+s2t = opencc.OpenCC('s2t')
 
 # Where to find data 去哪裡找data
 tf.flags.DEFINE_string('data_path', 'review_generation_dataset/train/* ', 'Path expression to tf.Example datafiles. Can include wildcards to access multiple datafiles.')
-tf.flags.DEFINE_string('vocab_path', 'review_generation_dataset/new_dir.txt', 'Path expression to text vocabulary file.')
+tf.flags.DEFINE_string('vocab_path', 'new_data/new_vocab.txt', 'Path expression to text vocabulary file.')
 
 # Important settings 匯入設定
 
 
-tf.flags.DEFINE_string('mode', 'adversarial_train', 'must be one of adversarial_train/train_generator/train_discriminator/test_language_model')
+
+tf.flags.DEFINE_string('mode', 'train_generator', 'must be one of adversarial_train/train_generator/train_discriminator/test_language_model')
 
 # Where to save output 儲存檔案
 tf.flags.DEFINE_string('log_root', './', 'Root directory for all logging.')
@@ -61,7 +67,7 @@ tf.flags.DEFINE_integer('batch_size', 64, 'minibatch size') # for discriminator 
 tf.flags.DEFINE_integer('max_enc_steps', 50, 'max timesteps of encoder (max source text tokens)') # for generator
 tf.flags.DEFINE_integer('min_dec_steps', 35, 'Minimum sequence length of generated summary. Applies only for beam search decoding mode') # for generator
 # tf.flags.DEFINE_integer('vocab_size', 50000, 'Size of vocabulary. These will be read from the vocabulary file in order. If the vocabulary file contains fewer words than this number, or if this number is set to 0, will take all words in the vocabulary file.')
-tf.flags.DEFINE_integer('vocab_size', 66100, 'Size of vocabulary. These will be read from the vocabulary file in order. If the vocabulary file contains fewer words than this number, or if this number is set to 0, will take all words in the vocabulary file.')
+tf.flags.DEFINE_integer('vocab_size', 66317, 'Size of vocabulary. These will be read from the vocabulary file in order. If the vocabulary file contains fewer words than this number, or if this number is set to 0, will take all words in the vocabulary file.')
 tf.flags.DEFINE_float('lr', 0.1, 'learning rate') # for discriminator and generator
 tf.flags.DEFINE_float('adagrad_init_acc', 0.1, 'initial accumulator value for Adagrad') # for discriminator and generator
 tf.flags.DEFINE_float('rand_unif_init_mag', 0.02, 'magnitude for lstm cells random uniform inititalization') # for discriminator and generator
@@ -72,9 +78,9 @@ def setup_training_generator(model):
     train_dir = os.path.join(FLAGS.log_root, "train-generator")
     if not os.path.exists(train_dir): 
         os.makedirs(train_dir)
-    model.build_graph() # build the graph
-    saver = tf.train.Saver(max_to_keep=10)  # we use this to load checkpoints for decoding
     sess = tf.Session(config=util.get_config())
+    model.build_graph(sess) # build the graph
+    saver = tf.train.Saver(max_to_keep=10)  # we use this to load checkpoints for decoding
     init = tf.global_variables_initializer()
     sess.run(init)
     return sess, saver, train_dir
@@ -221,6 +227,7 @@ def run_pre_train_generator(model, batcher, max_run_epoch, sess, saver, train_di
         while step < len(batchers):
             current_batch = batchers[step]
             results = model.run_pre_train_step(sess, current_batch)
+            
             
 
             loss = results['loss']
@@ -429,12 +436,12 @@ def main(unused_argv):
         for epoch in range(100):
             print('開始訓練')
             batches = batcher.get_batches(mode = 'train')
-            for step in range(int(len(batches)/20)):
+            for step in range(int(len(batches)/14)):
               
-                run_train_generator(model, model_dis, sess_dis, batcher, dis_batcher, batches[step*20:(step+1)*20], sess_ge, saver_ge, train_dir_ge)
+                run_train_generator(model, model_dis, sess_dis, batcher, dis_batcher, batches[step*14:(step+1)*14], sess_ge, saver_ge, train_dir_ge)
                 generated.generator_sample_example(
                     "train_sample_generated/" + str(epoch) + "epoch_step" + str(step) + "_temp_positive",
-                    "train_sample_generated/" + str(epoch) + "epoch_step" + str(step) + "_temp_negative", 20)
+                    "train_sample_generated/" + str(epoch) + "epoch_step" + str(step) + "_temp_negative", 14)
 
                 tf.logging.info("test performance: ")
                 tf.logging.info("epoch: "+str(epoch)+" step: "+str(step))
@@ -442,12 +449,12 @@ def main(unused_argv):
                 print("evaluate the diversity of DP-GAN (decode based on  max probability)")
                 generated.generator_test_sample_example(
                     "test_sample_generated/" + str(epoch) + "epoch_step" + str(step) + "_temp_positive",
-                    "test_sample_generated/" + str(epoch) + "epoch_step" + str(step) + "_temp_negative", 20)
+                    "test_sample_generated/" + str(epoch) + "epoch_step" + str(step) + "_temp_negative", 14)
                 
                 print("evaluate the diversity of DP-GAN (decode based on sampling)")
                 generated.generator_test_max_example(
                     "test_max_generated/" + str(epoch) + "epoch_step" + str(step) + "_temp_positive",
-                    "test_max_generated/" + str(epoch) + "epoch_step" + str(step) + "_temp_negative", 20)
+                    "test_max_generated/" + str(epoch) + "epoch_step" + str(step) + "_temp_negative", 14)
 
                 dis_batcher.train_queue = []
                 dis_batcher.train_queue = []
@@ -464,12 +471,15 @@ def main(unused_argv):
         util.load_ckpt(saver_ge, sess_ge, ckpt_dir="train-generator")
         print("finish load train-generator")
         
-        jieba.load_userdict('/review_generation_dataset/new_dir.txt')
+        jieba.load_userdict('dir.txt')
         inputs = ''
         while inputs != "close":
+            
             inputs = input("Enter your ask: ")
-            sentence = jieba.cut(inputs)
+            sentence = segmentor.segment(t2s.convert(inputs))
+#            sentence = jieba.cut(inputs)
             sentence = (" ".join(sentence))
+            sentence = s2t.convert(sentence)
             print(sentence)
             sentence = sentence.split( )
             enc_input = [vocab.word2id(w) for w in sentence]
@@ -489,7 +499,7 @@ def main(unused_argv):
             result = ge_model.run_test_language_model(sess_ge, enc_input, enc_lens, dec_batch , dec_lens)
             
             
-            output_ids = [int(t) for t in result['generated'][0][0]][1:]
+            output_ids = [int(t) for t in result['generated'][0][0]][0:]
             decoded_words = data.outputids2words(output_ids, vocab, None)
             print("decoded_words :",decoded_words)
             try:

@@ -1,5 +1,6 @@
 import tensorflow as tf
 import time
+from tensorflow.python.layers.core import Dense
 FLAGS = tf.flags.FLAGS
 
 def sample_output(embedding, output_projection=None, given_number=None):
@@ -39,6 +40,7 @@ class Generator(object):
     def __init__(self, hps, vocab):
         self._hps = hps
         self._vocab = vocab
+        
                                                                                                                                    
     def _add_placeholders(self):
         hps = self._hps
@@ -81,7 +83,7 @@ class Generator(object):
                 swap_memory=True)
         return fw_st, bw_st, tf.concat([encoder_outputs_forward, encoder_outputs_backward], axis = -1)
 
-    def _add_decoder(self, loop_function, loop_function_max, loop_given_function, input, attention_state):
+    def _add_decoder(self, loop_function, loop_function_max, loop_given_function, input, attention_state, embedding):
         hps = self._hps
 
         input = tf.reshape(input, [hps.batch_size*hps.max_dec_sen_num, hps.max_dec_steps , hps.emb_dim])
@@ -123,6 +125,24 @@ class Generator(object):
                 loop_function = loop_given_function
             )
 
+            # # PREDICTING_DECODER
+            # projection_layer = Dense(self._vocab.size())
+            # predicting_decoder = tf.contrib.seq2seq.beamsearch_decoder(
+            #     cell = cell,
+            #     embedding = embedding,
+            #     start_tokens = tf.tile(tf.constant([2], dtype=tf.int32), [hps.batch_size]),
+            #     end_token = 3,
+            #     initial_state = self._dec_in_state,
+            #     beam_width = 3,
+            #     output_layer = projection_layer,
+            #     length_penalty_weight = 0.0
+            # )
+
+            # predicting_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+            # decoder = predicting_decoder,
+            # impute_finished = False,
+            # maximum_iterations = 2 * tf.reduce_max(self.dec_lens))
+
 
             decoder_outputs_pretrain = tf.stack(decoder_outputs_pretrain, axis=1)
             decoder_outputs_sample_generator = tf.stack(decoder_outputs_sample_generator, axis=1)
@@ -163,7 +183,7 @@ class Generator(object):
             grads, global_norm = tf.clip_by_global_norm(gradients, self._hps.max_grad_norm)
 
             # Add a summary
-            tf.summary.scalar('global_norm', global_norm)
+            # tf.summary.scalar('global_norm', global_norm)
 
             # Apply adagrad optimizer
             self._train_op = self.optimizer.apply_gradients(zip(grads, tvars), global_step=self.global_step, name='train_step')
@@ -227,7 +247,8 @@ class Generator(object):
                 loop_function_max = loop_function_max, 
                 loop_given_function = loop_given_function, 
                 input = emb_dec_inputs,#[64, 6, 40, 128]
-                attention_state = encoder_outputs_word)#[64, 40, 512]
+                attention_state = encoder_outputs_word,#[64, 40, 512]
+                embedding = embedding)
                 
             decoder_outputs_pretrain = tf.reshape(decoder_outputs_pretrain, [hps.batch_size*hps.max_dec_sen_num*hps.max_dec_steps, hps.hidden_dim])
             decoder_outputs_pretrain = tf.nn.xw_plus_b(decoder_outputs_pretrain, w, v)
@@ -248,6 +269,7 @@ class Generator(object):
             decoder_outputs_max_generator = tf.nn.xw_plus_b(decoder_outputs_max_generator, w, v)
             self._max_best_output = tf.reshape(tf.argmax(decoder_outputs_max_generator, 1), [hps.batch_size,hps.max_dec_sen_num, hps.max_dec_steps])
 
+
             loss = tf.contrib.seq2seq.sequence_loss(
                 decoder_outputs_pretrain,
                 self._target_batch,
@@ -255,6 +277,7 @@ class Generator(object):
                 average_across_timesteps=True,
                 average_across_batch=False
             )
+            
 
             reward_loss = tf.contrib.seq2seq.sequence_loss(
             decoder_outputs_pretrain,
@@ -262,21 +285,30 @@ class Generator(object):
             self._dec_padding_mask,
             average_across_timesteps=False,
             average_across_batch=False) * tf.reciprocal(self.reward)
-
+            
+            # tf.summary.scalar('reward_loss', reward_loss)
             reward_loss = tf.reshape(reward_loss, [-1])
-
+            
+            
+            # test_writer = tf.summary.FileWriter(FLAGS.summaries_dir + '/test')
             # Update the cost
             self._cost = tf.reduce_mean(loss)
+
+            tf.summary.scalar('loss', self._cost)
+            self.summary = tf.summary.merge_all()
             self._reward_cost = tf.reduce_mean(reward_loss)
             self.optimizer = tf.train.AdagradOptimizer(self._hps.lr, initial_accumulator_value=self._hps.adagrad_init_acc)
 
-    def build_graph(self):
+            
+
+    def build_graph(self,sess):
         """Add the placeholders, model, global step, train_op and summaries to the graph"""
         with tf.device("/gpu:" + str(FLAGS.gpuid)):
             tf.logging.info('Building generator graph...')
             t0 = time.time()
             self._add_placeholders()
             self._build_model()
+            self.train_writer = tf.summary.FileWriter('tensorborad/train',sess.graph)
             self.global_step = tf.Variable(0, name='global_step', trainable=False)
             self._add_train_op()
             self._add_reward_train_op()
@@ -290,7 +322,10 @@ class Generator(object):
             'train_op':self._train_op,
             'loss':self._cost,
             'global_step':self.global_step,
+            'summary': self.summary
         }
+        result = sess.run(to_return, feed_dict)
+        self.train_writer.add_summary(result['summary'], result['global_step'])
         return sess.run(to_return, feed_dict)
 
     def run_eval_given_step(self, sess, batch):
@@ -307,6 +342,7 @@ class Generator(object):
             'train_op': self._train_reward_op,
             'loss': self._reward_cost,
             'global_step': self.global_step,
+            
         }
         return sess.run(to_return, feed_dict)
 
@@ -334,7 +370,7 @@ class Generator(object):
         feed_dict[self.dec_lens] = (dec_lens)
 
         to_return = {
-            'generated': self._sample_given_best_output,
+            'generated': self._max_best_output,
         }
         return sess.run(to_return, feed_dict)
         

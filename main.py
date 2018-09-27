@@ -464,7 +464,7 @@ def main(unused_argv):
         util.load_ckpt(saver_ge, sess_ge, ckpt_dir="train-generator")
         print("finish load train-generator")
         
-        jieba.load_userdict('dir.txt')
+        jieba.load_userdict('/review_generation_dataset/new_dir.txt')
         inputs = ''
         while inputs != "close":
             inputs = input("Enter your ask: ")
